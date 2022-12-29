@@ -1,0 +1,16 @@
+{
+    "name": "bedrock-relay-template",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "server": "node ./node_modules/bedrock-protocol/tools/startVanillaServer.js",
+        "relay": "node relay.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "bedrock-protocol": "^3.21.0"
+    }
+}
